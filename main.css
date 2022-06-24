@@ -55,6 +55,8 @@ body {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
+    flex: 1;
     justify-content: center;
     padding: 10px;
   }
@@ -80,6 +82,7 @@ body {
     background: #1f2937;
     display: flex;
     justify-content: center;
+
     gap: 8px;
     padding: 65px;
     
@@ -92,7 +95,6 @@ img {
  }
 
 .modal {
-    
     width: 350px;
     display: flex;
     flex-direction: column;
@@ -144,3 +146,38 @@ img {
       font-size: 24px;
 
   }
+
+  .bottom {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+  }
+
+  .action {
+    width: 900px;
+    height: 125px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+  }
+
+.word {
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 80px;
+}
+
+button.bttn {
+    border: 2px solid white;
+    border-radius: 1em;
+    background-color: transparent;
+    color: #f9faf8;
+    width: 120px;
+    font-weight: bold;
+}
