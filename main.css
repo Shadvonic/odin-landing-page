@@ -3,7 +3,7 @@ body {
     margin: 0;
     min-height: 100vh;
     text-align: center;
- 
+   
   }
   
   .header {
@@ -48,14 +48,15 @@ body {
 
 .text {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #1f2937;
     text-align: center;
+    
 }
 
 .container {
     display: flex;
     justify-content: center;
-    gap: 52px;
+    padding: 10px;
   }
 
   .info {
@@ -74,3 +75,72 @@ body {
     font-weight: bolder;
     color: #1f2937;
  }
+
+ .top {
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 65px;
+    
+ }
+
+
+img {
+     width: 450px;
+     height: 200px;
+ }
+
+.modal {
+    
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+}
+
+ .title {
+     font-size: 48px;
+     font-weight: bolder;
+     color: #f9faf8;
+ }
+
+ .subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+ }
+
+ button {
+    border-radius: 1em;
+    width: 90px;
+    height: 40px;
+  }
+
+  button.sign {
+    background: #3882f6;
+    color: white;
+
+  }
+
+.quote {
+    background-color: #e5e7eb;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5em;
+  }
+  .words {
+      text-align:  left;
+      font-size: 36px;
+      font-style: italic;
+      color: #1f2937;
+      width: 800px;
+  }
+
+  .auth {
+      text-align: right;
+      font-weight: bold;
+      font-size: 24px;
+
+  }
